@@ -1,0 +1,583 @@
+<resources>
+    <string name="app_name">Smart Vision</string>
+
+    <!-- ORGANIC LENSES -->
+    <!-- ORMA Values -->
+    <string-array name="cyl_orma">
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+    </string-array>
+
+    <string-array name="sph_orma">
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+        <item>+4.25</item>
+        <item>+4.50</item>
+        <item>+4.75</item>
+        <item>+5.00</item>
+        <item>+5.25</item>
+        <item>+5.50</item>
+        <item>+5.75</item>
+        <item>+6.00</item>
+    </string-array>
+
+    <!--EMI values. -->
+    <string-array name="cyl_emi">
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+    </string-array>
+
+    <string-array name="sph_emi">
+        <item>-5.00</item>
+        <item>-4.75</item>
+        <item>-4.50</item>
+        <item>-4.25</item>
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+        <item>+4.25</item>
+        <item>+4.50</item>
+        <item>+4.75</item>
+        <item>+5.00</item>
+    </string-array>
+
+    <!--1.61 values -->
+    <string-array name="cyl_one_sixty">
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+    </string-array>
+
+    <string-array name="sph_one_sixty">
+        <item>-6.00</item>
+        <item>-5.75</item>
+        <item>-5.50</item>
+        <item>-5.25</item>
+        <item>-5.00</item>
+        <item>-4.75</item>
+        <item>-4.50</item>
+        <item>-4.25</item>
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+        <item>+4.25</item>
+        <item>+4.50</item>
+        <item>+4.75</item>
+        <item>+5.00</item>
+        <item>+5.25</item>
+        <item>+5.50</item>
+        <item>+5.75</item>
+        <item>+6.00</item>
+    </string-array>
+
+    <!-- 1.67 values -->
+    <string-array name="cyl_one_sixty_seven">
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+    </string-array>
+
+    <!-- 1.67 values -->
+    <string-array name="sph_one_sixty_seven">
+        <item>-8.00</item>
+        <item>-7.75</item>
+        <item>-7.50</item>
+        <item>-7.25</item>
+        <item>-7.00</item>
+        <item>-6.75</item>
+        <item>-6.50</item>
+        <item>-6.25</item>
+        <item>-6.00</item>
+        <item>-5.75</item>
+        <item>-5.50</item>
+        <item>-5.25</item>
+        <item>-5.00</item>
+        <item>-4.75</item>
+        <item>-4.50</item>
+        <item>-4.25</item>
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+        <item>+4.25</item>
+        <item>+4.50</item>
+        <item>+4.75</item>
+        <item>+5.00</item>
+        <item>+5.25</item>
+        <item>+5.50</item>
+        <item>+5.75</item>
+        <item>+6.00</item>
+        <item>+6.25</item>
+        <item>+6.50</item>
+        <item>+6.75</item>
+        <item>+7.00</item>
+        <item>+7.25</item>
+        <item>+7.50</item>
+        <item>+7.75</item>
+        <item>+8.00</item>
+    </string-array>
+
+    <!-- 1.74 values -->
+    <string-array name="cyl_one_seventy_four">
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+        <item>0.00</item>
+    </string-array>
+
+    <string-array name="sph_one_seventy_four">
+        <item>-12.00</item>
+        <item>-11.75</item>
+        <item>-11.50</item>
+        <item>-11.25</item>
+        <item>-11.00</item>
+        <item>-10.75</item>
+        <item>-10.50</item>
+        <item>-10.25</item>
+        <item>-10.00</item>
+        <item> -9.75</item>
+        <item> -9.50</item>
+        <item> -9.25</item>
+        <item> -9.00</item>
+        <item> -8.75</item>
+        <item> -8.50</item>
+        <item> -8.25</item>
+        <item> -8.00</item>
+        <item> -7.75</item>
+        <item> -7.50</item>
+        <item> -7.25</item>
+        <item> -7.00</item>
+        <item> -6.75</item>
+        <item> -6.50</item>
+        <item> -6.25</item>
+        <item> -6.00</item>
+        <item> -5.75</item>
+        <item> -5.50</item>
+        <item> -5.25</item>
+        <item> -5.00</item>
+    </string-array>
+
+    <!-- Trans Brown-Grey values -->
+    <string-array name="cyl_trans">
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+    </string-array>
+
+
+    <string-array name="sph_trans">
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+    </string-array>
+
+    <!-- PC -->
+    <string-array name="cyl_pc">
+
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+
+    </string-array>
+
+    <string-array name="sph_pc">
+
+        <item>-4.00</item>
+        <item>-3.75</item>
+        <item>-3.50</item>
+        <item>-3.25</item>
+        <item>-3.00</item>
+        <item>-2.75</item>
+        <item>-2.50</item>
+        <item>-2.25</item>
+        <item>-2.00</item>
+        <item>-1.75</item>
+        <item>-1.50</item>
+        <item>-1.25</item>
+        <item>-1.00</item>
+        <item>-0.75</item>
+        <item>-0.50</item>
+        <item>-0.25</item>
+
+        <item>0.00</item>
+
+        <item>+0.25</item>
+        <item>+0.50</item>
+        <item>+0.75</item>
+        <item>+1.00</item>
+        <item>+1.25</item>
+        <item>+1.50</item>
+        <item>+1.75</item>
+        <item>+2.00</item>
+        <item>+2.25</item>
+        <item>+2.50</item>
+        <item>+2.75</item>
+        <item>+3.00</item>
+        <item>+3.25</item>
+        <item>+3.50</item>
+        <item>+3.75</item>
+        <item>+4.00</item>
+
+    </string-array>
+
+    <!-- Mirror colors -->
+    <string-array name="mirror">
+        <item>Yellow Lime</item>
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Rose</item>
+        <item>Ice</item>
+    </string-array>
+
+    <!-- Colors for Sun -->
+    <string-array name="color_sun">
+        <item>G15</item>
+        <item>Brown</item>
+        <item>Black</item>
+    </string-array>
+
+    <!-- Base for Sun -->
+    <string-array name="base_sun">
+        <item>@string/base_six</item>
+        <item>@string/base_eight</item>
+    </string-array>
+
+    <!-- Base for Mirror (only 1 option -->
+    <string-array name="base_mirror">
+        <item>@string/base_six</item>
+    </string-array>
+
+    <!-- Type for Sun -->
+    <string-array name="type_sun">
+        <item>@string/monochromatic</item>
+        <item>@string/degrade</item>
+        <item>@string/polar</item>
+    </string-array>
+
+    <!-- Type for Mirror (only 1 option) -->
+    <string-array name="type_mirror">
+        <item>@string/monochromatic</item>
+    </string-array>
+
+    <string name="monochromatic">Monochromatic</string>
+    <string name="degrade">Degrade</string>
+    <string name="polar">Polar</string>
+
+    <string name="basket">Basket</string>
+    <string name="delete_all">Delete all</string>
+    <string name="color">Color</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantity_short">Quan.</string>
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="price_per_item">Price per item</string>
+    <string name="mix_toast_text">No mixed numbers!</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="sphere">Sphere</string>
+    <string name="cylinder_short">Cyl.</string>
+    <string name="sphere_short">Sph.</string>
+    <string name="base">Base</string>
+    <string name="type">Type</string>
+
+    <string name="order">Order</string>
+    <string name="info">Info</string>
+
+    <string name="organic">Organic</string>
+    <string name="pc_sil">PC - SIL</string>
+    <string name="sun">Sun</string>
+
+    <string name="base_six">Base 6</string>
+    <string name="base_eight">Base 8</string>
+
+    <string name="quantity_toast_text">Pick quantity!</string>
+    <string name="quantity_not_negative_toast">Quantity can\'t be negative!</string>
+
+    <string name="delete_basket_alert_dialog">Do you want to empty the basket?</string>
+    <string name="delete_single_item_alert_dialog">Delete item?</string>
+    <string name="added_to_basket">Added to basket!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="basket_is_empty_toast_text">Basket is empty</string>
+    <string name="history_is_empty_toast_text">History is empty</string>
+    <string name="delete_basket_and_ignore_notification_message">Delete</string>
+    <string name="sent_order_successfully">Order sent successfully!</string>
+    <string name="sent_order_unsuccessfully">Error sending the order, please try later!</string>
+    <string name="ignore_basket_notification">Ignore</string>
+
+    <string name="text_including_placeholders">%1$s: %2$s</string>
+    <string name="price_text_including_placeholders">%1$s €</string>
+    <string name="total_sph_cyl_toast_including_placeholder">Sphere and cylinder sum should be up to %1$d!</string>
+    <string name="basket_not_empty_notification">Basket is not empty!</string>
+    <string name="history">History</string>
+    <string name="logo">Logo</string>
+    <string name="upload">Upload</string>
+
+</resources>

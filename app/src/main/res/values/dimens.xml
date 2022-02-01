@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dp dimensions -->
+    <dimen name="one_dp_view_height">1dp</dimen>
+    <dimen name="five_dp_indicator_height">5dp</dimen>
+    <dimen name="eight_dp_padding_margin">8dp</dimen>
+    <dimen name="sixteen_dp_padding_margin">16dp</dimen>
+    <dimen name="twenty_four_dp_padding_margin">24dp</dimen>
+    <dimen name="thirty_two_dp_padding_margin">32dp</dimen>
+    <dimen name="forty_eight_dp_buttons">48dp</dimen>
+    <dimen name="sixty_dp_height_basket_button">60dp</dimen>
+    <dimen name="sixty_four_dp_height_basket_button">64dp</dimen>
+
+    <!-- sp dimensions -->
+    <dimen name="sixteen_sp_text">16sp</dimen>
+    <dimen name="eighteen_sp_text">18sp</dimen>
+    <dimen name="twenty_sp_text">20sp</dimen>
+    <dimen name="forty_sp_text">40sp</dimen>
+
+</resources>

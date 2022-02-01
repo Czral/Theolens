@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.OrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:viewBindingIgnore="true">
+
+        <TextView
+            android:id="@+id/organiko_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/organic"
+            android:textColor="@color/white"
+            android:textSize="@dimen/forty_sp_text" />
+
+        <TextView
+            android:id="@+id/pc_sil_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/pc_sil"
+            android:textColor="@color/white"
+            android:textSize="@dimen/forty_sp_text" />
+
+        <TextView
+            android:id="@+id/sun_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryLight"
+            android:gravity="center"
+            android:text="@string/sun"
+            android:textColor="@color/white"
+            android:textSize="@dimen/forty_sp_text" />
+
+    </LinearLayout>
+</layout>

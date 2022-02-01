@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".organic.OrmaFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        tools:viewBindingIgnore="true"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:viewBindingIgnore="true">
+
+            <TextView
+                android:id="@+id/cylinder_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/thirty_two_dp_padding_margin"
+                android:layout_marginTop="@dimen/thirty_two_dp_padding_margin"
+                android:text="@string/cylinder"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eighteen_sp_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:viewBindingIgnore="true" />
+
+            <Spinner
+                android:id="@+id/cyl_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                app:layout_constraintBottom_toBottomOf="@+id/cylinder_title_text"
+                app:layout_constraintEnd_toEndOf="@+id/sph_spinner"
+                app:layout_constraintTop_toTopOf="@+id/cylinder_title_text" />
+
+            <TextView
+                android:id="@+id/sphere_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/thirty_two_dp_padding_margin"
+                android:text="@string/sphere"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eighteen_sp_text"
+                app:layout_constraintStart_toStartOf="@+id/cylinder_title_text"
+                app:layout_constraintTop_toBottomOf="@+id/cylinder_title_text"
+                tools:viewBindingIgnore="true" />
+
+
+            <Spinner
+                android:id="@+id/sph_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                app:layout_constraintBottom_toBottomOf="@+id/sphere_title_text"
+                app:layout_constraintEnd_toEndOf="@+id/quantity_plus"
+                app:layout_constraintTop_toTopOf="@+id/sphere_title_text" />
+
+            <TextView
+                android:id="@+id/quantity_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/thirty_two_dp_padding_margin"
+                android:text="@string/quantity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eighteen_sp_text"
+                app:layout_constraintStart_toStartOf="@+id/sphere_title_text"
+                app:layout_constraintTop_toBottomOf="@+id/sphere_title_text"
+                tools:viewBindingIgnore="true" />
+
+            <Button
+                android:id="@+id/quantity_minus"
+                android:layout_width="@dimen/forty_eight_dp_buttons"
+                android:layout_height="@dimen/forty_eight_dp_buttons"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/minus_button"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/quantity_text"
+                app:layout_constraintEnd_toStartOf="@+id/quantity_text"
+                app:layout_constraintTop_toTopOf="@+id/quantity_text" />
+
+            <TextView
+                android:id="@+id/quantity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/twenty_four_dp_padding_margin"
+                android:paddingEnd="@dimen/twenty_four_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eighteen_sp_text"
+                app:layout_constraintBottom_toBottomOf="@+id/quantity_plus"
+                app:layout_constraintEnd_toStartOf="@+id/quantity_plus"
+                app:layout_constraintTop_toTopOf="@+id/quantity_plus"
+                tools:text="0" />
+
+            <Button
+                android:id="@+id/quantity_plus"
+                android:layout_width="@dimen/forty_eight_dp_buttons"
+                android:layout_height="@dimen/forty_eight_dp_buttons"
+                android:layout_marginEnd="@dimen/thirty_two_dp_padding_margin"
+                android:background="@drawable/round_button"
+                android:text="@string/plus_button"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/quantity_title_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/quantity_title_text" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_dp_view_height"
+                android:layout_marginStart="@dimen/thirty_two_dp_padding_margin"
+                android:layout_marginTop="@dimen/sixteen_dp_padding_margin"
+                android:layout_marginEnd="@dimen/thirty_two_dp_padding_margin"
+                android:background="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/quantity_minus"
+                tools:viewBindingIgnore="true" />
+
+            <TextView
+                android:id="@+id/price_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sixteen_dp_padding_margin"
+                android:layout_marginEnd="@dimen/thirty_two_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2"
+                tools:text="Price" />
+
+            <TextView
+                android:id="@+id/type_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/eight_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text"
+                app:layout_constraintEnd_toEndOf="@+id/quantity_text_view"
+                app:layout_constraintTop_toBottomOf="@+id/quantity_text_view"
+                tools:text="Type" />
+
+            <TextView
+                android:id="@+id/cylinder_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/eight_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text"
+                app:layout_constraintEnd_toEndOf="@+id/price_text"
+                app:layout_constraintTop_toBottomOf="@+id/price_text"
+                tools:text="Cylinder" />
+
+            <TextView
+                android:id="@+id/sphere_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/eight_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text"
+                app:layout_constraintEnd_toEndOf="@+id/cylinder_text_view"
+                app:layout_constraintTop_toBottomOf="@+id/cylinder_text_view"
+                tools:text="Sphere" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/eight_dp_padding_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text"
+                app:layout_constraintEnd_toEndOf="@+id/sphere_text_view"
+                app:layout_constraintTop_toBottomOf="@+id/sphere_text_view"
+                tools:text="Quantity" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_dp_view_height"
+                android:layout_marginStart="@dimen/thirty_two_dp_padding_margin"
+                android:layout_marginTop="@dimen/sixteen_dp_padding_margin"
+                android:layout_marginEnd="@dimen/thirty_two_dp_padding_margin"
+                android:background="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/type_text_view"
+                tools:viewBindingIgnore="true" />
+
+            <Button
+                android:id="@+id/basket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/thirty_two_dp_padding_margin"
+                android:background="@drawable/basket_button"
+                android:text="@string/add_to_basket"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <TextView
+                android:id="@+id/price_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/thirty_two_dp_padding_margin"
+                android:text="@string/price_per_item"
+                app:layout_constraintBottom_toBottomOf="@+id/price_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/price_text"
+                tools:viewBindingIgnore="true" />
+
+            <TextView
+                android:id="@+id/cylinder_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cylinder"
+                app:layout_constraintBottom_toBottomOf="@+id/cylinder_text_view"
+                app:layout_constraintStart_toStartOf="@+id/price_title_text_view"
+                app:layout_constraintTop_toTopOf="@+id/cylinder_text_view"
+                tools:viewBindingIgnore="true" />
+
+            <TextView
+                android:id="@+id/sphere_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sphere"
+                app:layout_constraintBottom_toBottomOf="@+id/sphere_text_view"
+                app:layout_constraintStart_toStartOf="@+id/cylinder_title_text_view"
+                app:layout_constraintTop_toTopOf="@+id/sphere_text_view"
+                tools:viewBindingIgnore="true" />
+
+            <TextView
+                android:id="@+id/type_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type"
+                app:layout_constraintBottom_toBottomOf="@+id/type_text_view"
+                app:layout_constraintStart_toStartOf="@+id/quantity_title_text_view"
+                app:layout_constraintTop_toTopOf="@+id/type_text_view"
+                tools:viewBindingIgnore="true" />
+
+            <TextView
+                android:id="@+id/quantity_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity"
+                app:layout_constraintBottom_toBottomOf="@+id/quantity_text_view"
+                app:layout_constraintStart_toStartOf="@+id/sphere_title_text_view"
+                app:layout_constraintTop_toTopOf="@+id/quantity_text_view"
+                tools:viewBindingIgnore="true" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

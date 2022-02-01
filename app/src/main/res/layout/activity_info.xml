@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.InfoActivity">
+
+        <TextView
+            android:id="@+id/company_info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="@dimen/sixteen_dp_padding_margin"
+            android:text="Company info"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_sp_text" />
+
+        <LinearLayout
+            android:id="@+id/linear_layour_address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/address_text_view_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sixteen_dp_padding_margin"
+                android:text="Address 1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text" />
+
+            <TextView
+                android:id="@+id/address_text_view_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="@dimen/sixteen_dp_padding_margin"
+                android:paddingEnd="@dimen/sixteen_dp_padding_margin"
+                android:text="Address 2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text" />
+
+            <TextView
+                android:id="@+id/address_text_view_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="@dimen/sixteen_dp_padding_margin"
+                android:paddingEnd="@dimen/sixteen_dp_padding_margin"
+                android:text="Address 3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text" />
+
+            <TextView
+                android:id="@+id/address_text_view_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="@dimen/sixteen_dp_padding_margin"
+                android:paddingEnd="@dimen/sixteen_dp_padding_margin"
+                android:text="Address 4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/eight_dp_padding_margin"
+            android:text="e_mail@mail.com"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_sp_text" />
+
+        <TextView
+            android:id="@+id/phone_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/eight_dp_padding_margin"
+            android:text="1234567890"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_sp_text" />
+
+        <TextView
+            android:id="@+id/site_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/eight_dp_padding_margin"
+            android:text="www.google.com"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_sp_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/sixteen_dp_padding_margin"
+            android:text="Message:"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/eight_dp_padding_margin"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/sent_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sent"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</layout>
